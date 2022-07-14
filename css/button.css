@@ -1,0 +1,49 @@
+:root{
+    --fontPrimary: 'Poppins', sans-serif;
+    --colorGrey: #e5e5e5;
+    --colorYellow: #FFFA8B;
+    --colorGrey: #E6E6E7;
+    --colorRed: #e63946;
+}
+.figure-button-remove{
+    cursor: pointer;
+    font-family: var(--fontPrimary);
+    padding: 10px;
+    border: unset;
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    color: var(--colorRed);
+    z-index: 1;
+    background: white;
+    position: relative;
+    font-weight: normal;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+ .figure-button-remove::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 10px;
+    background-color: var(--colorRed);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+.figure-button-remove:hover {
+    color: #fff;
+   }
+   
+.figure-button-remove:hover::before {
+    width: 100%;
+   }

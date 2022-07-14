@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/button.css">
+    <title>Math</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+                <div class="header">
+                    <p>OsmarPB</p>
+                    <h1><a id="style-2" href="#">mathGraphics</a></h1>
+                    <div class="header-social">
+                        <div class="header-social-github">
+                            <img src="img/logotipo-de-github.png" alt="gitHub">
+                        </div>
+                    </div>    
+                </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container-main">
+            <section class="cube">
+                <div class="cube-section-answer">
+                    <div class="cube-img">
+                        <img src="img/cube_new.png" alt="circle">
+                    </div>
+                    <div class="cube-area">
+                        <p>Perimeter</p>
+                        <p class="perimeterAnswer">0</p>
+                        <p>Area</p>
+                        <p class="areaAnswer">0</p>
+                    </div>
+                </div>
+                <div class="cube-section-answer" >
+                    <h2>Cube</h2>
+                    <p>Ingresa el <span>lado</span> en cm:</p>
+                    <form class="cube-form" action="#">
+                    <input id="cubeCalt" type="number" placeholder="0">
+                    <input class="cubeBottomCalt figure-button-calt" type="submit" value="Calculate" >
+                    <button class="cubeBottomRemove figure-button-remove">Remove</button>
+                    </form>
+
+                </div>
+            </section>
+            <section class="cube">
+                <div class="cube-section-answer">
+                    <div class="cube-img">
+                        <img src="img/circle-new.png" alt="circle">
+                    </div>
+                    <div class="cube-area">
+                        <p>Perimeter</p>
+                        <p class="perimeter_Answer_Circle">0</p>
+                        <p>Area</p>
+                        <p class="area_Answer_Circle">0</p>
+                    </div>
+                </div>
+                <div class="cube-section-answer" >
+                    <h2>Circle</h2>
+                    <p>Ingresa el <span>lado</span> en cm:</p>
+                    <form class="cube-form" action="#">
+                    <input id="circleCal" type="number" placeholder="0">
+                    <input class="circleBottomCalt figure-button-calt" type="submit" value="Calculate" >
+                    <button class="circleBottomRemove figure-button-remove">Remove</button>
+                </form>
+                
+            </div>
+        </section>
+        <section class="cube">
+                <div class="cube-section-answer">
+                    <div class="cube-img">
+                        <img src="img/triangule.png" alt="triangule">
+                    </div>
+                    <div class="cube-area">
+                        <p>Perimeter</p>
+                        <p class="perimeter_Answer_Triangule">0</p>
+                        <p>Area</p>
+                        <p class="area_Answer_Triangule">0</p>
+                    </div>
+                </div>
+                <div class="cube-section-answer" >
+                    <h2>Triangule</h2>
+                    <!-- <p>ingresa <span>lado</span> en cm:</p> -->
+                    <form class="cube-form" action="#">
+                        <label for="number">Ingrese el <b>lado</b> en cm:</label>
+                        <input id="trianguleLado" class="input-styles" type="number" placeholder="0">
+                        <label for="number">Ingrese la <b>base</b> en cm:</label>
+                        <input id="trianguleBase" class="input-styles" type="number" placeholder="0">
+                        <label for="number">Ingrese el <b>alto</b> en cm:</label>
+                        <input id="trianguleAlto" class="input-styles" type="number" placeholder="0">
+                        <input class="trianguleBottomCalt figure-button-calt" type="submit" value="Calculate" >
+                    <button class="trianguleBottomRemove figure-button-remove">Remove</button>
+                </form>
+                
+            </div>
+        </section>
+        <section class="cube">
+            <div class="cube-section-answer">
+                <div class="cube-img">
+                    <img src="img/rentangule.png" alt="circle">
+                </div>
+                <div class="cube-area">
+                    <p>Perimeter</p>
+                    <p class="perimeter_Answer_Rectangule">0</p>
+                    <p>Area</p>
+                    <p class="area_Answer_Rectangule">0</p>
+                </div>
+            </div>
+            <div class="cube-section-answer" >
+                <h2>Rectangule</h2>
+                <form class="cube-form" action="#">
+                <label for="number" >Ingrese el <b>ancho</b> en cm</label>
+                <input id="rentanguleW" class="input-styles" type="number" placeholder="0">
+                <label for="number" >Ingrese la <b>altura</b> en cm</label>
+                <input id="rentanguleH" class="input-styles" type="number" placeholder="0">
+                <input class="rectanguleBottomCalt figure-button-calt" type="submit" value="Calculate" >
+                <button class="rectanguleBottomRemove figure-button-remove">Remove</button>
+            </form>
+            
+        </div>
+    </section>
+    </div>
+</main>
+
+</body>
+<script src="js/script.js"></script>
+</html>
